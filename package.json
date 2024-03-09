@@ -25,6 +25,7 @@
 	"type": "module",
 	"dependencies": {
 		"@unocss/reset": "^0.58.5",
+		"bits-ui": "^0.19.5",
 		"clsx": "^2.1.0",
 		"lucide-svelte": "^0.352.0",
 		"tailwind-merge": "^2.2.1",
