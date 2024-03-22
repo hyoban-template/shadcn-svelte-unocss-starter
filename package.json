@@ -27,7 +27,7 @@
 		"@unocss/reset": "^0.58.6",
 		"bits-ui": "^0.20.0",
 		"clsx": "^2.1.0",
-		"lucide-svelte": "^0.360.0",
+		"lucide-svelte": "^0.361.0",
 		"tailwind-merge": "^2.2.2",
 		"tailwind-variants": "^0.2.1"
 	}
