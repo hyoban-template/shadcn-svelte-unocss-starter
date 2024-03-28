@@ -24,7 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@unocss/reset": "^0.58.7",
+		"@unocss/reset": "^0.58.8",
 		"bits-ui": "^0.21.1",
 		"clsx": "^2.1.0",
 		"lucide-svelte": "^0.363.0",

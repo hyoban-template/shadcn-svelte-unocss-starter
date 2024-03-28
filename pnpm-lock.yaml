@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@unocss/reset':
-    specifier: ^0.58.7
-    version: 0.58.7
+    specifier: ^0.58.8
+    version: 0.58.8
   bits-ui:
     specifier: ^0.21.1
     version: 0.21.1(svelte@4.2.12)
@@ -51,7 +51,7 @@ devDependencies:
     version: 0.58.8(postcss@8.4.38)(vite@5.2.6)
   unocss-preset-animations:
     specifier: ^1.0.2
-    version: 1.0.2(@unocss/preset-wind@0.58.7)(unocss@0.58.8)
+    version: 1.0.2(@unocss/preset-wind@0.58.8)(unocss@0.58.8)
   unocss-preset-shadcn:
     specifier: ^0.2.3
     version: 0.2.3(unocss-preset-animations@1.0.2)(unocss@0.58.8)
@@ -986,18 +986,8 @@ packages:
       unconfig: 0.3.11
     dev: true
 
-  /@unocss/core@0.58.7:
-    resolution: {integrity: sha512-Df5ytibV0MB7kWLggzLHsJUj08Of2oqXmPg7QjRUghMvCT3dl2LUIZXiztYPMH0F4x0cPebNoa/pavNt8xz9eQ==}
-    dev: true
-
   /@unocss/core@0.58.8:
     resolution: {integrity: sha512-R3KuNTzF6G+bb2Qqg4LNLTWHh4TGU8iQJ4KOlpWHrPKAhDSCZ3XY9lSXoepCPwv+JcGEwA97Msa3zZ5p+QDoFg==}
-    dev: true
-
-  /@unocss/extractor-arbitrary-variants@0.58.7:
-    resolution: {integrity: sha512-wEuilON0u/e1milNp1UBWGps3Hdtm9qBfmc2YmsHN8KhpTSSCluzbrLSYfF++tU5iWmVWR2514Lc2waVDhuiwg==}
-    dependencies:
-      '@unocss/core': 0.58.7
     dev: true
 
   /@unocss/extractor-arbitrary-variants@0.58.8:
@@ -1046,14 +1036,6 @@ packages:
       - supports-color
     dev: true
 
-  /@unocss/preset-mini@0.58.7:
-    resolution: {integrity: sha512-ktfrMlOtnks9j1r1ZJFzPcmCbWRjOfXh7UwoGYhH7c3Fi9Zbn1HI9+wblroEBstvbGUZGyaH5Ht+0rCmRrg5HQ==}
-    dependencies:
-      '@unocss/core': 0.58.7
-      '@unocss/extractor-arbitrary-variants': 0.58.7
-      '@unocss/rule-utils': 0.58.7
-    dev: true
-
   /@unocss/preset-mini@0.58.8:
     resolution: {integrity: sha512-dCn9ny8Fpiya8qwc2dRkh8YCH5xwf+iD3MxP9YgfweO1o816onBJVqb03xEJT/MOxYkpuRFVJGU+cVSpehamiw==}
     dependencies:
@@ -1091,14 +1073,6 @@ packages:
       ofetch: 1.3.4
     dev: true
 
-  /@unocss/preset-wind@0.58.7:
-    resolution: {integrity: sha512-rELMKcd/cwMnw6fPf/dmg63u41fRXJoXDO5rlO/+Fa8DF4/r8KJTUbjJbZfcOnh3n8jHz3NUz+QigdRBuDTEuw==}
-    dependencies:
-      '@unocss/core': 0.58.7
-      '@unocss/preset-mini': 0.58.7
-      '@unocss/rule-utils': 0.58.7
-    dev: true
-
   /@unocss/preset-wind@0.58.8:
     resolution: {integrity: sha512-7ktb0wJgZg9q2xlNXfgx2pRjg22WJ+B3ENIk9+DB88pty2f6dYo24l8ZyJXQbHglgCilY64NP0fNHkBlUF9olg==}
     dependencies:
@@ -1107,21 +1081,8 @@ packages:
       '@unocss/rule-utils': 0.58.8
     dev: true
 
-  /@unocss/reset@0.58.7:
-    resolution: {integrity: sha512-KiN5u5D4zJcU0Tg+wjgTWYIm8VEfHpi7t2a3YfNCLo9s/75Ty4tlYB9StEShYmVMCXBOu0mK1CwqQTNaFpfM1w==}
-    dev: false
-
   /@unocss/reset@0.58.8:
     resolution: {integrity: sha512-6Cz92Ryer7QpFhxnOwyauwVJfDGhCNYvLHGqW8ScIicFEPK9AUXYys/zBRCIYO2489/kckZ5EG8a3NImS5h+9w==}
-    dev: true
-
-  /@unocss/rule-utils@0.58.7:
-    resolution: {integrity: sha512-SbMwAUSgx5v4TXy+MXiWbqzoMjVHSeMaJpJOruU9PmtrOuZmqeajffMtI6pLtGlgrEL76frLRyMmSErxhyNelw==}
-    engines: {node: '>=14'}
-    dependencies:
-      '@unocss/core': 0.58.7
-      magic-string: 0.30.8
-    dev: true
 
   /@unocss/rule-utils@0.58.8:
     resolution: {integrity: sha512-F7TKtTkiV9ICf8JMYO1+Eq/5zrrV7Fw966rQfHfIKrN6Vwo3tw84b5R0bLJghAFtb9UuD7q9eCfy6WBQK0d7Tw==}
@@ -2613,13 +2574,13 @@ packages:
       mlly: 1.6.1
     dev: true
 
-  /unocss-preset-animations@1.0.2(@unocss/preset-wind@0.58.7)(unocss@0.58.8):
+  /unocss-preset-animations@1.0.2(@unocss/preset-wind@0.58.8)(unocss@0.58.8):
     resolution: {integrity: sha512-AacFdOvHwvKZKqjn9/paKQ50LmU0qk4n6350/toQcSX3XEQIE7rTZwm/68Aag5jP2Z8M4Y8IvDf8Q7Qc0MNdTw==}
     peerDependencies:
       '@unocss/preset-wind': '>= 0.56.0 < 1'
       unocss: '>= 0.56.0 < 1'
     dependencies:
-      '@unocss/preset-wind': 0.58.7
+      '@unocss/preset-wind': 0.58.8
       unocss: 0.58.8(postcss@8.4.38)(vite@5.2.6)
     dev: true
 
@@ -2630,7 +2591,7 @@ packages:
       unocss-preset-animations: ^1.0.1
     dependencies:
       unocss: 0.58.8(postcss@8.4.38)(vite@5.2.6)
-      unocss-preset-animations: 1.0.2(@unocss/preset-wind@0.58.7)(unocss@0.58.8)
+      unocss-preset-animations: 1.0.2(@unocss/preset-wind@0.58.8)(unocss@0.58.8)
     dev: true
 
   /unocss@0.58.8(postcss@8.4.38)(vite@5.2.6):
